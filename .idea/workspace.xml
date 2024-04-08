@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ff950a9-a9d4-4e50-b5ac-a35e97e56ff7" name="Changes" comment="actually uploading the initial commit code">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StaticConjugation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Verb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Verb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Word.java" afterDir="false" />
-    </list>
+    <list default="true" id="7ff950a9-a9d4-4e50-b5ac-a35e97e56ff7" name="Changes" comment="final version of the code, still mvp" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,11 +56,20 @@
       <option name="project" value="LOCAL" />
       <updated>1711944674576</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="final version of the code, still mvp">
+      <option name="closed" value="true" />
+      <created>1712553642841</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712553642841</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="actually uploading the initial commit code" />
-    <option name="LAST_COMMIT_MESSAGE" value="actually uploading the initial commit code" />
+    <MESSAGE value="final version of the code, still mvp" />
+    <option name="LAST_COMMIT_MESSAGE" value="final version of the code, still mvp" />
   </component>
 </project>

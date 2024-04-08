@@ -26,7 +26,7 @@ public class Interface {
                 System.out.println("Please choose a word to conjugate: ");
                 String wrd = s.nextLine();
                 for (int i = 0; i < words.size(); i++) {
-                    if (words.get(i).getWord().equals(wrd)) {
+                    if (words.get(i).getWord().equals(wrd) && words.get(i) instanceof Verb) {
                         String[][] conj = ((Verb) words.get(i)).getConjugationTable();
                         for (String[] row : conj) {
                             for (String con : row) {
@@ -45,7 +45,7 @@ public class Interface {
                 choice = s.nextLine();
                 continue;
             }
-            printMenu();
+            choice = printMenu();
         }
     }
 
