@@ -3,11 +3,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import static java.lang.Integer.parseInt;
-
 public class Interface {
-    //have sep methods for conjugating just one or getting the whole conjugation table
-    //view dictionary
     private Scanner s;
     private static ArrayList<Word> words = new ArrayList<Word>();
 
@@ -25,10 +21,8 @@ public class Interface {
         System.out.println("Welcome to the Talyp Tool!");
         System.out.println("What would you like to do today");
         String choice = printMenu();
-        while (Integer.parseInt(choice) != 4) {
+        while (Integer.parseInt(choice) != 3) {
             if (Integer.parseInt(choice) == 1) {
-
-            } else if (Integer.parseInt(choice) == 2) {
                 System.out.println("Please choose a word to conjugate: ");
                 String wrd = s.nextLine();
                 for (int i = 0; i < words.size(); i++) {
@@ -42,9 +36,7 @@ public class Interface {
                         }
                     }
                 }
-
-
-            } else if (Integer.parseInt(choice) == 3) {
+            } else if (Integer.parseInt(choice) == 2) {
                 for (int i = 0; i < words.size(); i++) {
                     System.out.println(words.get(i));
                 }
@@ -58,10 +50,9 @@ public class Interface {
     }
 
     public String printMenu() {
-        System.out.println("(1) Conjugate a verb");
-        System.out.println("(2) See a verb's whole conjugation table");
-        System.out.println("(3) View Talyp dictionary");
-        System.out.println("(4) Quit");
+        System.out.println("(1) See a verb's whole conjugation table");
+        System.out.println("(2) View Talyp dictionary");
+        System.out.println("(3) Quit");
         return s.nextLine();
     }
 

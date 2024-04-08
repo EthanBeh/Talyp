@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class Word {
     private String word;
     private String type;
@@ -17,10 +15,6 @@ public class Word {
 
     public String getType() {
         return type;
-    }
-
-    public boolean sameType(Word other) {
-        return this.type.equals(other.type);
     }
 
     @Override
